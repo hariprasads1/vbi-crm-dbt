@@ -1,6 +1,7 @@
 {{ config(
     materialized='incremental',
     transient = false,
+    unique_key = 'domain',
     alias='clicky_domain_information'
 )
 }}
