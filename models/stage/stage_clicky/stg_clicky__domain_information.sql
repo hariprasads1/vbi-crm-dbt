@@ -8,4 +8,4 @@ select
     document:logo::varchar as logo_URL,
     record_captured_at,
     blob_file_name
-from {{ source('clicky_sources', 'domain_information_document')}}
+from {{ source('clicky_sources', 'hostnames_document')}}

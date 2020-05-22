@@ -14,5 +14,5 @@ sources:
       - name: searches_unique_document
       - name: traffic_sources_document
       - name: visitors_list_document
-      - name: domain_information_document
+      - name: hostnames_document
       - name: actions_list_document

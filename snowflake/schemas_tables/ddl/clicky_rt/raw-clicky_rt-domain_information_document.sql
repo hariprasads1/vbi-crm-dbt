@@ -3,7 +3,7 @@ use warehouse crm_wh;
 use database raw;
 use schema clicky;
 
-create or replace transient table domain_information_document (
+create or replace transient table hostnames_document (
     document variant,
     record_captured_at timestamp_ntz,
     blob_file_name varchar
