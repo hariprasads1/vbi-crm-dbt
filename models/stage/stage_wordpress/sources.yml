@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: wordpress_sources
+    database: raw
+    schema: wordpress
+    tables:
+      - name: TB_CATEGORIES_DOCUMENT
+      - name: TB_MEDIA_DOCUMENT
+      - name: TB_PAGES_DOCUMENT
+      - name: TB_POSTS_DOCUMENT
+      - name: TB_SEARCH_DOCUMENT
+      - name: TB_STATUSES_DOCUMENT
+      - name: TB_TAGS_DOCUMENT
+      - name: TB_TAXONOMIES_DOCUMENT
+      - name: TB_TYPES_DOCUMENT
+      - name: TB_USERS_DOCUMENT
